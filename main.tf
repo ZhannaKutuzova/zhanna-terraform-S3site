@@ -6,7 +6,7 @@ provider "aws" {
 variable "bucket_name_prefix" {
   description = "A unique prefix for the S3 bucket name."
   type        = string
-  default     = "zhanna-test123-site" # Customize if needed
+  default     = "zhanna-test555-site" # Customize if needed
 }
 
 variable "github_repo_owner" {
